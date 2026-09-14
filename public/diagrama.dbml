@@ -1,0 +1,12 @@
+Table ajustes {
+    id int [pk, increment]
+
+    nombre varchar(150) [not null]
+    descripcion varchar(150) [null]
+    direccion text [not null]
+    telefono varchar(50) [not null]
+    email varchar(150) [not null]
+    divisa varchar(10) [not null]
+    logo varchar(255) [null]
+    web varchar(255) [null]
+}

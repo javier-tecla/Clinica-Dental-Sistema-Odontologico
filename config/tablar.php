@@ -18,11 +18,11 @@ return [
     |
     */
 
-    'title' => 'Tablar',
+    'title' => 'Sistema de Odontología Clinica Dental',
     'title_prefix' => '',
     'title_postfix' => '',
-    'bottom_title' => 'Tablar',
-    'current_version' => 'v11.11',
+    'bottom_title' => 'Sistema de Odontología Clinica Dental',
+    'current_version' => 'v1.1',
 
     /*
     |--------------------------------------------------------------------------
@@ -178,6 +178,13 @@ return [
             'icon' => 'ti ti-home',
             'url' => 'home',
         ],
+
+        [
+            'text' => 'Ajustes',
+            'icon' => 'ti ti-settings',
+            'url' => 'admin/ajustes',
+            'active' => ['ajustes'],
+        ]
     ],
 
     /*
