@@ -8,7 +8,7 @@
     <title>@yield('title')</title>
 
     <!-- CSS/JS files -->
-    @if(config('tablar','vite'))
+    @if(config('tablar.vite'))
         @vite('resources/js/app.js')
     @endif
     {{-- Custom Stylesheets (post Tablar) --}}

@@ -184,6 +184,13 @@ return [
             'icon' => 'ti ti-settings',
             'url' => 'admin/ajustes',
             'active' => ['ajustes'],
+        ],
+
+        [
+            'text' => 'Roles',
+            'icon' => 'ti ti-shield',
+            'url' => 'admin/roles',
+            'active' => ['roles'],
         ]
     ],
 

@@ -67,7 +67,11 @@ class AjusteController extends Controller
 
         $ajuste->save();
 
-        return redirect()->route('admin.ajustes.index')->with('success', 'Ajustes guardados correctamente.');
+        return redirect()->route('admin.ajustes.index')->with('swal', [
+            'icon' => 'success',
+            'title' => '¡Guardado!',
+            'text' => 'Ajustes guardados correctamente.',
+        ]);
     }
 
     /**
